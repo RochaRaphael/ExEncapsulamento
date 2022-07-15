@@ -27,8 +27,8 @@ namespace ExEncapsulamento
 
         public void Saque(double valor)
         {
-            //Taxa de saque de 10 reais
-            Saldo = Saldo - 10 - valor;
+            //Taxa de saque de 20 reais
+            Saldo = Saldo - 20 - valor;
         }
 
     }
